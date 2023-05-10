@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <!--import css file-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;700&family=Bellefair&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <!--start header-->
+<header>
+<div class="logo">
+  <img src="assets/shared/logo.svg" alt="">
+</div>
+<nav>
+  <ul>
+    <li >
+      <a  href="index.html">00 Home</a>
+    </li>
+    <li >
+      <a href="destination.html">01 Destination</a>
+    </li>
+    <li>
+      <a href="crew.html">02 Crew</a>
+    </li>
+    <li class="active">
+      <a href="technology.html">03 Technology</a>
+    </li>
+    <button class="close">
+      <img src="assets/shared/icon-close.svg" alt="">
+    </button>
+  </ul>
+</nav>
+<button class="menu">
+  <img src="assets/shared/icon-hamburger.svg" alt="">
+</button>
+</header>
+<!-- End header-->
+<!--start landing page-->
+<section class="technology">
+  <div class="container">
+    <div class="left-side">
+      <p class="num"><span>02</span> Space launch 101</p>
+      <div class="content">
+        <ul>
+          <li class="active" data-id="0">1</li>
+          <li data-id="1">2</li>
+          <li data-id="2">3</li>
+        </ul>
+        <div class="text">
+          <p>THE TERMINOLOGY...</p>
+          <div class="text-tech">
+            <h2>LAUNCH VEHICLE</h2>
+            <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right-side">
+      <img src="assets/technology/image-launch-vehicle-portrait.jpg" alt="">
+    </div>
+</section>
+<!--end landing page-->
+<script src="js/data.json"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

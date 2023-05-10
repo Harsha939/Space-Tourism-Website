@@ -1,0 +1,25 @@
+// start mixins for media
+@mixin media($point) {
+    @if $point == mobile{
+        @media (max-width:767px) {
+            @content;
+        }
+    }@else if $point == small{
+        @media (min-width:768px) and (max-width:991px) {
+            @content;
+        }
+    }@else if $point == medium {
+        @media (min-width:992px) and (max-width:1199px) {
+            @content;
+        }
+    }@else if $point == large{
+        @media (min-width:1200px) and (max-width:1599px) {
+            @content;
+        }
+    }@else if $point == xlarge{
+        @media (min-width:1600px) {
+            @content;
+        }
+    }
+    
+}

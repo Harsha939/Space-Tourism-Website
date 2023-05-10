@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <!--import css file-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;700&family=Bellefair&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <!--start header-->
+<header>
+<div class="logo">
+  <img src="assets/shared/logo.svg" alt="">
+</div>
+<nav>
+  <ul>
+    <li >
+      <a  href="index.html">00 Home</a>
+    </li>
+    <li class="active">
+      <a href="destination.html">01 Destination</a>
+    </li>
+    <li>
+      <a href="crew.html">02 Crew</a>
+    </li>
+    <li>
+      <a href="technology.html">03 Technology</a>
+    </li>
+    <button class="close">
+      <img src="assets/shared/icon-close.svg" alt="">
+    </button>
+  </ul>
+</nav>
+<button class="menu">
+  <img src="assets/shared/icon-hamburger.svg" alt="">
+</button>
+</header>
+<!-- End header-->
+<!--start landing page-->
+<section class="destination">
+
+  <div class="container">
+    <div class="left-side l-s-destination">
+        <p><span>01</span> Pick your destination</p>
+        <div class="box-img">
+          <img class="planet-image" src="assets/destination/image-moon.webp" alt="">
+        </div>
+    </div>
+    <div class="right-side">
+        <ul>
+            <li class="active-section" data-id="0">Moon</li>
+            <li data-id="1">Mars</li>
+            <li data-id="2">Europa</li>
+            <li data-id="3">Titan</li>
+        </ul>
+        <div class="section-body">
+          <h2 class="planetName">Moon</h2>
+        <div class="box-des">
+          <p class="planetDes">See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+              regain perspective and come back refreshed. While you’re there, take in some history 
+              by visiting the Luna 2 and Apollo 11 landing sites.</p>
+        </div>
+            <div class="info">
+                <div class="distance">
+                    <p>Avg. distance</p>
+                    <p class="planetDistace">384,400 km</p>
+                </div>
+                <div class="time">
+                    <p>Est. travel time</p>
+                    <p class="planetTravel">3 days</p>
+                </div>
+            </div>
+            </div>
+    </div>
+  </div>
+  </div>
+
+
+</section>
+<!--end landing page-->
+<script src="js/data.json"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
